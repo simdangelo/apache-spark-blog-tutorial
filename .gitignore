@@ -11,7 +11,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+*.iws
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -149,3 +149,13 @@ Temporary Items
 *.icloud
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,macos
+
+project/boot/
+project/plugins/project/
+.project
+.pydevproject
+project/build/target/
+project/plugins/lib_managed/
+project/plugins/project/build.properties
+project/plugins/src_managed/
+project/plugins/target/
