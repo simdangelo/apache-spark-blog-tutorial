@@ -1,7 +1,7 @@
 import org.apache.spark.sql.{DataFrame, Row, SparkSession}
 import org.apache.spark.sql.types._
 
-object DFBasics {
+object DFBasics1 {
 
   val spark = SparkSession.builder()
     .config("spark.master", "local")
@@ -167,8 +167,8 @@ object DFBasics {
 //    readCsv_v1()
 //    readCsv_v2()
 //    readJson()
-//    readParquet()
-    readPostgres()
+    readParquet()
+//    readPostgres()
 
     // Writing
 //    writeParquet()
