@@ -1,10 +1,10 @@
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.{Row, SparkSession}
 
-object Joins {
+object Join {
 
   val spark = SparkSession.builder()
-    .appName("Spark Joins")
+    .appName("Spark Join")
     .config("spark.master", "local[*]")
     .getOrCreate()
   spark.sparkContext.setLogLevel("WARN")
