@@ -13,6 +13,9 @@
 .idea/**/shelf
 *.iws
 
+.idea
+project
+
 # AWS User-specific
 .idea/**/aws.xml
 
